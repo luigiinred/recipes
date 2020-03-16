@@ -1,29 +1,37 @@
 html {
     background-color: lightgray;
-    
 }
-h1{
+h1 {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 20px;
     font-style: italic;
     font-weight: bolder;
-
 }
-ol{
+ol {
     font-weight: bold;
 }
-p{
+p {
     padding-left: 15px;
     padding-top: 20px;
     font-style: italic;
 }
-ul{
+ul {
     padding-bottom: 25px;
     padding-top: 10px;
 }
-.header{background-color: rgb(115, 140, 165);
+.header {
+    background-color: rgb(115, 140, 165);
 }
-ol>li{
+ol > li {
     padding-bottom: 5px;
+}
+img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
 }
